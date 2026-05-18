@@ -243,14 +243,3 @@ Example hourly run:
 ```cron
 0 * * * * /usr/bin/python3 /path/to/umich_gsi_watch.py >> /path/to/umich-gsi-watch.log 2>&1
 ```
-
-## Recommended next step
-
-For a full application, use these CLI scripts as the source/parsing layer and move the following concerns into the web app:
-
-- database persistence
-- subscriber management
-- email notifications
-- scheduler management
-- frontend polling and settings
-- digest notifications

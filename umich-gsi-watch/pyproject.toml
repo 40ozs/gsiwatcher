@@ -1,0 +1,17 @@
+[project]
+name = "umich-gsi-watch"
+version = "0.1.0"
+description = "CLI watcher for UMich GSI postings"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.scripts]
+umich-gsi-watch = "umich_gsi_watch.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

@@ -9,15 +9,6 @@ The scripts monitor two sources:
 
 The scripts detect newly discovered postings by saving normalized posting keys to a local JSON state file.
 
-## Files
-
-```text
-umich_gsi_cli_authoritative/
-├── README.md
-├── umich_gsi_watch.py
-└── Watch-UmichGsiPostings.ps1
-```
-
 ## What the scripts do
 
 Each script:
